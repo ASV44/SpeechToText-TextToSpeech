@@ -1,0 +1,41 @@
+Language model created by QuickLM on Fri May  6 13:09:29 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 1 sentences and 7 words
+
+\data\
+ngram 1=7
+ngram 2=6
+ngram 3=5
+
+\1-grams:
+-1.1461 </s> -0.3010
+-1.1461 <s> -0.2688
+-1.1461 ADOBE -0.2688
+-1.1461 CHROME -0.2688
+-1.1461 FIREFOX -0.2688
+-1.1461 GOOGLE -0.2688
+-1.1461 YOUTUBE -0.2688
+
+\2-grams:
+-0.3010 <s> GOOGLE 0.0000
+-0.3010 ADOBE YOUTUBE 0.0000
+-0.3010 CHROME FIREFOX 0.0000
+-0.3010 FIREFOX ADOBE 0.0000
+-0.3010 GOOGLE CHROME 0.0000
+-0.3010 YOUTUBE </s> -0.3010
+
+\3-grams:
+-0.3010 <s> GOOGLE CHROME
+-0.3010 ADOBE YOUTUBE </s>
+-0.3010 CHROME FIREFOX ADOBE
+-0.3010 FIREFOX ADOBE YOUTUBE
+-0.3010 GOOGLE CHROME FIREFOX
+
+\end\

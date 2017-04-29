@@ -1,0 +1,46 @@
+07.05.2016 19:56:53 : C:\Users\Sasha\Desktop\LAB3.ru.docx:TranslateApiException: Cannot find an active Azure Market Place Translator Subscription associated with the request credentials. : ID=3627.V2_Soap.TranslateArray.59811613
+Server stack trace: 
+   в System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в TranslationAssistant.TranslationServices.Core.TranslatorService.LanguageService.TranslateArray(String appId, String[] texts, String from, String to, TranslateOptions options)
+   в TranslationAssistant.TranslationServices.Core.TranslatorService.LanguageServiceClient.TranslateArray(String appId, String[] texts, String from, String to, TranslateOptions options)
+   в TranslationAssistant.TranslationServices.Core.TranslationServiceFacade.TranslateArray(String[] texts, String from, String to, String contentType)
+   в TranslationAssistant.TranslationServices.Core.TranslationServiceFacade.TranslateArray(String[] texts, String from, String to)
+   в TranslationAssistant.Business.DocumentTranslationManager.<>c__DisplayClass13_0.<ProcessWordDocument>b__2(Int32 l)
+07.05.2016 19:56:53 : C:\Users\Sasha\Desktop\LAB3.ru.docx:TranslateApiException: Cannot find an active Azure Market Place Translator Subscription associated with the request credentials. : ID=3627.V2_Soap.TranslateArray.59811783
+Server stack trace: 
+   в System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в TranslationAssistant.TranslationServices.Core.TranslatorService.LanguageService.TranslateArray(String appId, String[] texts, String from, String to, TranslateOptions options)
+   в TranslationAssistant.TranslationServices.Core.TranslatorService.LanguageServiceClient.TranslateArray(String appId, String[] texts, String from, String to, TranslateOptions options)
+   в TranslationAssistant.TranslationServices.Core.TranslationServiceFacade.TranslateArray(String[] texts, String from, String to, String contentType)
+   в TranslationAssistant.TranslationServices.Core.TranslationServiceFacade.TranslateArray(String[] texts, String from, String to)
+   в TranslationAssistant.Business.DocumentTranslationManager.<>c__DisplayClass13_0.<ProcessWordDocument>b__2(Int32 l)
+12.05.2016 20:17:09 : C:\Users\Sasha\Desktop\pr/text_file.ru.txt:TranslateApiException: Cannot find an active Azure Market Place Translator Subscription associated with the request credentials. : ID=3427.V2_Soap.TranslateArray.1DCEC71C
+Server stack trace: 
+   в System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в TranslationAssistant.TranslationServices.Core.TranslatorService.LanguageService.TranslateArray(String appId, String[] texts, String from, String to, TranslateOptions options)
+   в TranslationAssistant.TranslationServices.Core.TranslatorService.LanguageServiceClient.TranslateArray(String appId, String[] texts, String from, String to, TranslateOptions options)
+   в TranslationAssistant.TranslationServices.Core.TranslationServiceFacade.TranslateArray(String[] texts, String from, String to, String contentType)
+   в TranslationAssistant.TranslationServices.Core.TranslationServiceFacade.TranslateArray(String[] texts, String from, String to)
+   в TranslationAssistant.Business.DocumentTranslationManager.ProcessTextDocument(String fullNameForDocumentToProcess, String sourceLanguage, String targetLanguage)
+   в TranslationAssistant.Business.DocumentTranslationManager.DoTranslationInternal(String fullNameForDocumentToProcess, String sourceLanguage, String targetLanguage)

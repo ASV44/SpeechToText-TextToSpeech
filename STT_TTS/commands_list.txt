@@ -1,0 +1,26 @@
+Open	Youtube	start https://www.youtube.com/
+Open	Google	start https://www.google.com/
+Open	Facebook	start https://www.facebook.com
+Open	Python	start %USERPROFILE%/AppData/Local/Programs/Python/Python35-32/Lib/idlelib/idle.pyw
+Close	Python	taskkill /F /IM pyw.exe
+Minimize	Windows	/MA
+Return	Windows	/UW
+Switch	Windows	/AT
+Shift	Window	/INA
+Minimize	Window	/MIN
+Maximize	Window	/MAX
+Close	Window	/CLS
+New	Tab	0xA3 0x54
+Close	Tab	0xA3 0x57
+Incognito	Mode	0xA3 0xA1 0x4E
+Return	Tab	0xA3 0xA1 0x54
+Increase	Volume	0xAF
+Decrease	Volume	0xAE
+Play	Music	0xB3
+Stop	Music	0xB3
+Mute	Volume	0xAD
+Select	All	0xA3 0x41
+Copy Selected	0xA3 0x43
+Paste Selected	0xA3 0x56
+Open	Taskmeneger	0xA3 0xA1 0x1B
+END

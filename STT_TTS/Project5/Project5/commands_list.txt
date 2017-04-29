@@ -1,0 +1,12 @@
+4
+Open	Youtube	start https://www.youtube.com/
+Open	Google	start https://www.google.com/
+Open	Python	start %USERPROFILE%/AppData/Local/Programs/Python/Python35-32/Lib/idlelib/idle.pyw
+Close	Python	taskkill /F /IM pyw.exe
+Minimize	Windows	/MA
+Return	Windows	/UW
+Switch	Windows	/AT
+Shift	Window	/INA
+Minimize	Window	/MIN
+Maximize	Window	/MAX
+Close	Window	/CLS

@@ -1,0 +1,20 @@
+﻿Build started 20.06.2016 17:02:09.
+     1>Project "C:\Users\Sasha\Desktop\pr\Project5\Project5\Project5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../pocketsphinx/include /I../../../sphinxbase/include /I../../../sphinxbase/include/win32 /I../../pocketsphinx/src/libpocketsphinx /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source1.cpp
+         Source1.cpp
+     1>c:\users\sasha\desktop\pr\project5\project5\file_speech.cpp(13): warning C4101: 'l' : unreferenced local variable
+     1>c:\users\sasha\desktop\pr\project5\project5\key_performer.cpp(8): warning C4005: 'WINVER' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(215) : see previous definition of 'WINVER'
+     1>c:\users\sasha\desktop\pr\project5\project5\key_performer.cpp(84): warning C4244: 'argument' : conversion from 'long' to 'WORD', possible loss of data
+     1>c:\users\sasha\desktop\pr\project5\project5\key_performer.cpp(86): warning C4244: 'argument' : conversion from 'long' to 'WORD', possible loss of data
+     1>c:\users\sasha\desktop\pr\project5\project5\source1.cpp(66): warning C4244: '=' : conversion from 'float64' to 'float', possible loss of data
+     1>c:\users\sasha\desktop\pr\project5\project5\source1.cpp(277): warning C4101: 't' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sasha\Desktop\pr\Project5\Debug\Project5.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\sphinxbase\bin\Debug\Win32 /LIBPATH:..\..\..\pocketsphinx\bin\Debug\Win32 sphinxbase.lib winmm.lib pocketsphinx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sasha\Desktop\pr\Project5\Debug\Project5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sasha\Desktop\pr\Project5\Debug\Project5.lib" /MACHINE:X86 Debug\Source1.obj
+         Project5.vcxproj -> C:\Users\Sasha\Desktop\pr\Project5\Debug\Project5.exe
+     1>Done Building Project "C:\Users\Sasha\Desktop\pr\Project5\Project5\Project5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.73

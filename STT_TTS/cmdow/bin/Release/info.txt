@@ -1,0 +1,2 @@
+Handle  Lev Pid -Window status- Image    Caption
+0x5B09D6 1 9092 Min Ina Ena Vis Unknown  YouTube - Google Chrome
