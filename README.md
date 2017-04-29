@@ -8,5 +8,6 @@ Functionality includes:
 3. Commands(executing given commands by voice input, such as open some app or web-page)
 4. Text to speech(transform text to macjine generated speech)
 
+Requires some additional files, in order to use more languages such as russian or french.
 
 ![alt_tag](https://github.com/ASV44/SpeechToText-TextToSpeech/blob/master/STT_TTS/screen/stt-tts.jpg)
